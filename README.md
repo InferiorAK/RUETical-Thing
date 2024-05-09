@@ -1,0 +1,2 @@
+# RUETical-Thing
+RUET
