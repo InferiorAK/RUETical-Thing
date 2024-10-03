@@ -1,6 +1,6 @@
 # Author  : InferiorAK
 # TooL    : Department Filtering tool for CKRUET
-# Created : 10 Aug 2024
+# Created : 3 Oct 2024
 
 from pypdf import PdfReader
 import os
