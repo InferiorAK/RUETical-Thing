@@ -28,7 +28,7 @@ class Department:
             for line in f:
                 if (line := line.strip()).endswith(f"{self.dept}-{self.uni}"):
                     nline = line.split(" ")
-                    print(f"{i:03d}. {" ".join(nline[2:len(nline)-1])}")
+                    print(f"{i:03d}. {' '.join(nline[2:len(nline)-1])}")
                     sys.stdout.flush()
                     i += 1
                 else:
@@ -41,6 +41,6 @@ if __name__ == "__main__":
     pdf = "27_sep_ka.pdf"
     dept = "me"
     uni = "kuet"
-    
+
     get = Department(pdf, dept, uni)
     get.filter()
