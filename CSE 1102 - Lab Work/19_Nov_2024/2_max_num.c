@@ -1,0 +1,18 @@
+// Author : InferiorAK
+// Work_Done : 19 Nov 2024
+
+#include <stdio.h>
+
+int main(){
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+
+    int max = 0;
+    if ((a>b) && (a>c) && (a>d)) max = a;
+    else if ((b>c) && (b>d)) max = b;
+    else if (c>d) max = c;
+    else max = d;
+
+    printf("%d\n", max);
+    return 0;
+}                                                                                                                                                                                                                                                                                                                                                                        
