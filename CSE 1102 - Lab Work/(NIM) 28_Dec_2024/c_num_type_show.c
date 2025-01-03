@@ -9,8 +9,10 @@ int main()
 	int arr[9] = {-4, -3, -2, -1, 0, 1, 2, 3, 4};
 
 	// int neg[n], pos[n], even[n], odd[n];
+	// int j = 0, k = 0, l = 0, m = 0;
 
-	int j = 0, k = 0, l = 0, m = 0;
+	int neg = 0, pos = 0, even = 0, odd = 0;
+
 	for (int i = 0; i < n; i++)
 	{
 		// if (arr[i] < 0){neg[j] = arr[i]; j++;}
@@ -19,12 +21,21 @@ int main()
 		// else {odd[m] = arr[i]; m++;}
 
 		if (arr[i] < 0)
-			printf("Neg: %d\n", arr[i]);
+			neg++;
+			// printf("Neg: %d\n", arr[i]);
 		else
-			printf("Pos: %d\n", arr[i]);
+			pos++;
+			// printf("Pos: %d\n", arr[i]);
 		if (arr[i] % 2 == 0)
-			printf("Even: %d\n", arr[i]);
+			even++;
+			// printf("Even: %d\n", arr[i]);
 		else
-			printf("Odd: %d\n", arr[i]);
+			odd++;
+			// printf("Odd: %d\n", arr[i]);
 	}
+
+	printf("Negative Numbers: %d\n", neg);
+	printf("Positive Numbers: %d\n", pos);
+	printf("Even Numbers: %d\n", even);
+	printf("Odd Numbers: %d\n", odd);
 }
