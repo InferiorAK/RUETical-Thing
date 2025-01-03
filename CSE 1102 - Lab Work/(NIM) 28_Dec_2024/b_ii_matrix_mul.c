@@ -6,7 +6,13 @@
 int main()
 {
 	int m1[3][3], m2[3][3];
-	int matrix[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+	int matrix[3][3];
+	// int matrix[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+
+	// Storing matrix[3][3]
+	for (int i = 0; i < 3; i++)
+		for (int j = 0; j < 3; j++)
+			matrix[i][j] = 0;
 
 	// Matrix Input
 	for (int i = 0; i < 3; i++)
