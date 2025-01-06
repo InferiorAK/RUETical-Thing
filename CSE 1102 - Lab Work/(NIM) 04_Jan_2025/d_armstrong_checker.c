@@ -7,11 +7,11 @@ int main(){
 	int num;
 	scanf("%d", &num);
 
-	arm = 0;
+	int arm = 0;
 	int x = num;
 	while (x){
 		int dig = x % 10;
-		arm += dig * dug * dig;
+		arm += dig * dig * dig;
 		x /= 10;
 	}
 
