@@ -18,7 +18,10 @@ void swapCase(char str[]){
 }
 
 int main(){
-    char str[21] = "This is a Testy Test";
+    // char str[21] = "This is a Testy Test";
+    char str[100];
+    fgets(str, sizeof(str), stdin);
+
 
     swapCase(str);
     printf("%s", str);
