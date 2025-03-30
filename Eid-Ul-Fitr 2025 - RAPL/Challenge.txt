@@ -1,0 +1,14 @@
+@everyone 
+
+This is not a CP challenge. 
+
+The task is simple, print/show “Eid Mubarak” using any programming language. You can just use printf to do this. But i want creativity. You can print it using assembly, you can plot in python which shows Eid Mubarak, you can make a game that shows the text when the level is finished, you can write Eid Mubarak within the code itself. Do whatever you want, I will judge based on creativity and your code.
+
+After you’re done, screen record you running the code and upload it to drive/youtube with public access and fillup this form using that: https://forms.gle/3xMsNnLzM22ugxrX7
+
+
+You can only fillup the form once, the form will be closed at 1:30AM. 
+
+After 1:30AM, I will share the submissions here so that everyone can see. They can also share their opinions about who did the best job.
+
+Please don’t use any AI, use your own creativity. Don’t communicate with anyone while the challenge is running. Anyone from 20-23 can participate, other series can participate unofficially. Top 5 will get eid salami from me.
